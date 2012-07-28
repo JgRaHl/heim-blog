@@ -5,5 +5,12 @@
     = stylesheet_link_tag "main"
     %title Mein Blog
   %body
-    #main= yield
+    #header
+      .container
+        #logo
+          = image_tag "iblue.png"
+        #topnav
+          %h1 Some much to code, so less time...
+    #main.container
+      .span12= yield
 
