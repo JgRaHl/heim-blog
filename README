@@ -1,0 +1,9 @@
+# Starting
+
+    bundle install
+    middleman server
+
+# Creating an article
+
+    middleman article "Your title here"
+
