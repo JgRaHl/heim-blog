@@ -8,9 +8,11 @@
     #header
       .container
         #logo
-          = image_tag "iblue.png"
+          %a{href: "/"}
+            = image_tag "iblue.png"
+            %h1 iblue
         #topnav
-          %h1 Some much to code, so less time...
+          %h1 the code blog
     #main.container
       .span12= yield
 
