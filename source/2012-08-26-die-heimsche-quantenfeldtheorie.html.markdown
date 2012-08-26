@@ -68,5 +68,5 @@ Frage-Antwort-Seite aufzusetzen. Auch eine Linksammlung wird sinnvoll.
 
 Eine Kommentarfunktion gibt es hier nicht, weil ich bis jetzt zu faul
 bin, die zu programmieren. Ich freue mich aber über
-[Post](anregungen@heim-projekt.com).
+[Post](mailto:anregungen@heim-projekt.com).
 
