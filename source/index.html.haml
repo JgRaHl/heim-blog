@@ -1,17 +1,20 @@
-.rown
+.row
   .span8
     - blog.articles.each do |article|
       %article
         %h1
           %a{href: article.url}= article.title
-        %time= article.date.strftime('%b %e %Y')
-
+        %author Markus Fenske
+        am
+        %time= article.date.strftime('%d.%m.%Y')
         =article.body
-  .span4
+
+  .span3.offset1
+    %h1 Alle Artikel
     - blog.articles.each do |article|
       %h2
         %a{href: article.url}= article.title
-      %author iblue
-      on
-      %time= article.date.strftime('%b %e %Y')
+      %author Markus Fenske
+      am
+      %time= article.date.strftime('%d.%m.%Y')
 
