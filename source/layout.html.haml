@@ -1,7 +1,9 @@
 !!!
 %html
   %head
-    %meta{charset: "utf-8"}
+    -# The charset will be specified by the server. If we run into trouble,
+    -# re-enable this
+    -#%meta{charset: "utf-8"}
     %meta{name: "viewport", content: "width=device-width, initial-scale=1.0"}
     = stylesheet_link_tag "main"
     - if is_blog_article?
