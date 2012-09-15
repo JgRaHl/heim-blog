@@ -4,12 +4,6 @@
     %meta{charset: "utf-8"}
     %meta{name: "viewport", content: "width=device-width, initial-scale=1.0"}
     = stylesheet_link_tag "main"
-    %script{:type => "text/x-mathjax-config"}
-      MathJax.Hub.Config({
-      tex2jax: {inlineMath: [['$','$'], ['$$','$$']]},
-      "HTML-CSS": {linebreaks:{automatic: true}}
-      });
-    = javascript_include_tag "http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
     - if is_blog_article?
       %title= current_article.title
     - else
@@ -34,4 +28,10 @@
         #topnav
           %h1 heim projekt
     #main.container= yield
+    %script{:type => "text/x-mathjax-config"}
+      MathJax.Hub.Config({
+      tex2jax: {inlineMath: [['$','$'], ['$$','$$']]},
+      "HTML-CSS": {linebreaks:{automatic: true}}
+      });
+    = javascript_include_tag "http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
 
