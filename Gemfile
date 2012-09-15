@@ -11,3 +11,6 @@ gem "builder", "~> 3.0.0"
 gem "execjs"
 gem "therubyracer"
 
+# For finding the nasty middleman bugs
+gem "debugger"
+

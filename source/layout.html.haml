@@ -10,7 +10,10 @@
       "HTML-CSS": {linebreaks:{automatic: true}}
       });
     = javascript_include_tag "http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
-    %title iblue | Burkhard Heims Einheitliche Quantenfeldtheorie
+    - if is_blog_article?
+      %title= current_article.title
+    - else
+      %title iblue | Burkhard Heims Einheitliche Quantenfeldtheorie
     :javascript
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-34358956-1']);

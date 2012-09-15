@@ -4,7 +4,7 @@ date: 2012-09-14 00:08 +02:00
 tags:
 ---
 
-# Einführung in die Metronenrechnung
+# Einführung in die Metronenrechnung, Teil 1
 
 Burkhard Heim verwendet in seiner Quantenfeldtheorie die
 Metronenrechnung, in die ich eine kleine Einführung geben möchte.

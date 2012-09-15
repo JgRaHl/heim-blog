@@ -1,5 +1,5 @@
 activate :blog do |blog|
-  blog.permalink = "artikel/:year/:month/:title"
+  blog.permalink = "artikel/:year/:month/:title/index.html"
 end
 
 set :css_dir,    'stylesheets'
