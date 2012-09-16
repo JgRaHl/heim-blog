@@ -1,0 +1,4 @@
+# Welcome to teh interwebz.
+#
+User-Agent: *
+Disallow: /robots.txt
