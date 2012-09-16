@@ -32,8 +32,10 @@
     #main.container= yield
     %script{:type => "text/x-mathjax-config"}
       MathJax.Hub.Config({
+      extensions: ["tex2jax.js", "TeX/AMSsymbols.js",],
+      jax: ["input/TeX", "output/HTML-CSS"],
       tex2jax: {inlineMath: [['$','$'], ['$$','$$']]},
       "HTML-CSS": {linebreaks:{automatic: true}}
       });
-    = javascript_include_tag "MathJax-8c9d583e/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+    = javascript_include_tag "MathJax-8c9d583e/MathJax.js"
 
