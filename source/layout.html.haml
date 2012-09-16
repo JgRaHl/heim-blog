@@ -20,6 +20,20 @@
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
+    -# Asyncronous loader for MathJax
+    %script{:type => "text/x-mathjax-config"}
+      MathJax.Hub.Config({
+      extensions: ["tex2jax.js", "TeX/AMSsymbols.js",],
+      jax: ["input/TeX", "output/HTML-CSS"],
+      tex2jax: {inlineMath: [['$','$'], ['$$','$$']]},
+      "HTML-CSS": {linebreaks:{automatic: true}}
+      });
+    :javascript
+      (function() {
+        var m = document.createElement('script'); m.type = 'text/javascript'; m.async = true;
+        m.src = '/javascripts/MathJax-8c9d583e/MathJax.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(m, s);
+      })();
   %body
     #header
       .container
@@ -30,12 +44,3 @@
         #topnav
           %h1 heim projekt
     #main.container= yield
-    %script{:type => "text/x-mathjax-config"}
-      MathJax.Hub.Config({
-      extensions: ["tex2jax.js", "TeX/AMSsymbols.js",],
-      jax: ["input/TeX", "output/HTML-CSS"],
-      tex2jax: {inlineMath: [['$','$'], ['$$','$$']]},
-      "HTML-CSS": {linebreaks:{automatic: true}}
-      });
-    = javascript_include_tag "MathJax-8c9d583e/MathJax.js"
-
