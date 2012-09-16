@@ -21,6 +21,13 @@ task :push do
   puts status ? "OK" : "FAILED"
 end
 
+desc "Deploy config"
+task :config do
+  puts "## Deploying nginx config to #{SSH_HOST}"
+  system("rsync -avze 'ssh' nginx.conf root@#{SSH_HOST}:/etc/nginx/sites-available/heim-projekt")
+  system("ssh root@#{SSH_HOST} '/etc/init.d/nginx reload'")
+end
+
 desc "Build and deploy website"
 task :deploy => [:build, :push] do
 end
