@@ -8,8 +8,15 @@ set :images_dir, 'images'
 
 configure :build do
   activate :minify_css
-  activate :minify_javascript
-  activate :cache_buster
+
+  # Strip copyright comments in javascript files
+  require 'uglifier'
+  activate :minify_javascript, :compressor => ::Uglifier.new(:copyright => false)
+
+  # Do not use get parameters, instead use hashes
+  activate :asset_hash
+  # activate :cache_buster
+
   activate :directory_indexes
 
   require "middleman-smusher"
