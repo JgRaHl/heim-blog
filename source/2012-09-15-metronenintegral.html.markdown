@@ -77,8 +77,8 @@ gezeigt. Nun lässt sich das auch herleiten. Wandeln wir die Funktion
 zuerst in die Summe ihrer fallenden Fakultäten um $\phi(n) = n^2 =
 n^{\underline{2}} + n^{\underline{1}}$. Wenn wir davon nun die
 metronische Stammfunktion bilden, wird aus $x^{\underline{m}}$ gemäß der
-Rechenregel $\frac{x^{\underline{m+1}}}{m}$, wir erhalten also $\Phi(n)
-= \frac{n^{\underline{3}}}{3} + \frac{n^{\underline{2}}}{2}$.  Und wenn
+Rechenregel $\frac{x^{\underline{m+1}}}{m}$, wir erhalten also $\Phi(n) =
+\frac{n^{\underline{3}}}{3} + \frac{n^{\underline{2}}}{2}$.  Und wenn
 wir das auflösen und umstellen, kriegen wir die Funktion, die ich im
 ersten Teil angegeben habe.
 
