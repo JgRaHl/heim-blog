@@ -8,6 +8,8 @@
     = stylesheet_link_tag "main"
     - if is_blog_article?
       %title= current_article.title
+    - elsif data.page.title
+      %title= data.page.title
     - else
       %title Burkhard Heims Einheitliche Quantenfeldtheorie
     :javascript
