@@ -7,7 +7,7 @@ title: "Nützliche Quellen"
 Von Heim gibt es die 4 blass-blauen Bücher:
 
 * Band 1: Elementarstrukturen der Materie 1
-  ([Inhaltsverzeichnis](/elementarstrukturen-1-inhaltsverzeichnis.html))
+  ([Inhaltsverzeichnis](/elementarstrukturen-1-inhaltsverzeichnis/))
 * Band 2: Elementarstrukturen der Materie 2
 * Band 3: Strukturen der physikalischen Welt und ihrer nichtmateriellen
   Seite
