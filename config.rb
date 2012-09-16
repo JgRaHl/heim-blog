@@ -14,7 +14,8 @@ configure :build do
   activate :minify_javascript, :compressor => ::Uglifier.new(:copyright => false)
 
   # Do not use get parameters, instead use hashes
-  activate :asset_hash
+  activate :asset_hash, :ignore => /MathJax/
+
   # activate :cache_buster
 
   activate :directory_indexes
