@@ -1,10 +1,18 @@
+---
+title: "Die Wissensbasis zur Theorie von Burkhard Heim"
+description: "Das Heim Projekt hat es sich zum Ziel gesetzt, Wissen und Quellen zur Theorie von Burkhard Heim zu sammeln."
+---
+
 .row
   %header.span12#hero
-    %h1 Heim Projekt
-    %p Die Knowlegdge Base zur Heimschen Quantenfeldtheorie
+    %h1 Über das Heim Projekt
+    %p
+      Das Heim Projekt ist die Knowlegde Base zur Heimschen
+      Quantenfeldtheorie. Ich habe mir zum Ziel gesetzt, hier alles
+      Wissen über die Theorie zu sammeln und zur veröffentlichen.
 
   .span6
-    %h1 Neueste Blogartikel
+    %h1 Neueste Artikel
     - blog.articles.each do |article|
       %h2= link_to article.title, article.url
       <author>Markus Fenske</author> am

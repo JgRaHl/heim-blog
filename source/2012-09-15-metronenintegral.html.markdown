@@ -2,6 +2,9 @@
 title: Metronenrechnung, Teil 2
 date: 2012-09-15 15:18 +02:00
 tags:
+description: "Im zweiten Teil der Einführung in die Metronenrechnung
+leite ich einige Gesetzmäßigkeiten des Metronintegrals her und zeige ein
+paar Rechenregeln."
 ---
 
 # Einführung in die Metronenrechnung, Teil 2

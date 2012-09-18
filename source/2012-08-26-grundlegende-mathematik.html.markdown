@@ -1,5 +1,8 @@
 ---
 title: Grundlegende Mathematik
+description: "Die Mathematik der Theorie von Burkhard Heim in den
+Elementarstrukturen, Band 1, Kapitel 1 besteht zu einem Großteil aus
+Tensorrechnung"
 date: 2012-08-26 21:42 +02:00
 tags:
 ---

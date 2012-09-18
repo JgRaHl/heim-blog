@@ -6,12 +6,12 @@
     -#%meta{charset: "utf-8"}
     %meta{name: "viewport", content: "width=device-width, initial-scale=1.0"}
     = stylesheet_link_tag "main"
-    - if is_blog_article?
-      %title= current_article.title
-    - elsif data.page.title
-      %title= data.page.title
+    - if data.page.title
+      %title #{data.page.title} - Projekt Heim
     - else
       %title Burkhard Heims Einheitliche Quantenfeldtheorie
+    - if data.page.description
+      %meta{name: "description", content: data.page.description}
     :javascript
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-34358956-1']);

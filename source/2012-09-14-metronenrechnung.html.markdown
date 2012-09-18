@@ -2,6 +2,9 @@
 title: Metronenrechnung, Teil 1
 date: 2012-09-14 00:08 +02:00
 tags:
+description: "Hier gebe ich eine kurze Einführung in die
+Metronenrechnung von Burkhard Heim, sowohl was das Metrondifferential
+als auch das Metronintegral anbelangt"
 ---
 
 # Einführung in die Metronenrechnung, Teil 1
