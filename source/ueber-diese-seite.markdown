@@ -1,3 +1,11 @@
+---
+title: "Über diese Seite"
+description: "Das Heim-Projekt hat sich zum Ziel gesetzt, die Heim-Theorie
+aufzuarbeiten und in eine der Allgemeinheit verständliche Form zu
+bringen."
+priority: 0.39
+---
+
 # Über diese Seite
 
 Das *Heim-Projekt* hat sich zum Ziel gesetzt, die Heim-Theorie
