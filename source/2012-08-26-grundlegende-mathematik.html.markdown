@@ -5,6 +5,7 @@ Elementarstrukturen, Band 1, Kapitel 1 besteht zu einem Großteil aus
 Tensorrechnung"
 date: 2012-08-26 21:42 +02:00
 tags:
+priority: 0.42
 ---
 
 Um die Heimsche Quantenfeldtheorie zu verstehen, sind diverse

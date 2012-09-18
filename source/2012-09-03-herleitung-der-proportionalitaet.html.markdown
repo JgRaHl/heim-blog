@@ -5,6 +5,7 @@ Ricci-Krümmungssklar und der Spur des Energie-Impuls-Tensors in der
 Theorie von Burkhard Heim"
 date: 2012-09-03 22:41 +02:00
 tags:
+priority: 0.31
 ---
 
 # Herleitung der Proportionalität $R \sim -T$

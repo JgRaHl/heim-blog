@@ -5,6 +5,7 @@ tags:
 description: "Im zweiten Teil der Einführung in die Metronenrechnung
 leite ich einige Gesetzmäßigkeiten des Metronintegrals her und zeige ein
 paar Rechenregeln."
+priority: 0.91
 ---
 
 # Einführung in die Metronenrechnung, Teil 2

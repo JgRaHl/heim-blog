@@ -1,6 +1,7 @@
 ---
 title: "Elementarstrukturen 1: Inhaltsverzeichnis"
 description: "Das Inhaltsverzeichnis der Elementarstrukturen"
+priority: 0.03
 ---
 
 # Inhaltsverzeichnis der Elementarstrukturen, Band 1

@@ -2,6 +2,7 @@
 title: Die Heimsche Quantenfeldtheorie
 date: 2012-08-26 18:08 +02:00
 tags:
+priority: 0.83
 ---
 
 Seit über 6 Jahren beobachte ich nun schon mehr passiv als aktiv die

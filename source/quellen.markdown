@@ -1,5 +1,6 @@
 ---
 title: "Nützliche Quellen"
+priority: 0.81
 ---
 
 # Primärquellen

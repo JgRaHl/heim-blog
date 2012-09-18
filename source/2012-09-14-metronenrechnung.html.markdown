@@ -5,6 +5,7 @@ tags:
 description: "Hier gebe ich eine kurze Einführung in die
 Metronenrechnung von Burkhard Heim, sowohl was das Metrondifferential
 als auch das Metronintegral anbelangt"
+priority: 0.94
 ---
 
 # Einführung in die Metronenrechnung, Teil 1
