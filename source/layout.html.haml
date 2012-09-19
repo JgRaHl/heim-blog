@@ -13,19 +13,9 @@
     - if data.page.description
       %meta{name: "description", content: data.page.description}
     = javascript_include_tag "visitors.js"
+    = javascript_include_tag "http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
     %script{:type => "text/x-mathjax-config"}
-      MathJax.Hub.Config({
-      extensions: ["tex2jax.js", "TeX/AMSsymbols.js",],
-      jax: ["input/TeX", "output/HTML-CSS"],
-      tex2jax: {inlineMath: [['$','$'], ['$$','$$']]},
-      "HTML-CSS": {linebreaks:{automatic: true}}
-      });
-    :javascript
-      (function() {
-        var m = document.createElement('script'); m.type = 'text/javascript'; m.async = true;
-        m.src = '/javascripts/MathJax-8c9d583e/MathJax.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(m, s);
-      })();
+      MathJax.Hub.Config({tex2jax:{inlineMath:[['$','$'],['$$','$$']]},"HTML-CSS":{linebreaks:{automatic:true}}});
   %body
     #header
       .container
