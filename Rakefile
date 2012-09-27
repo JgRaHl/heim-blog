@@ -1,5 +1,5 @@
 SSH_USER = 'iblue'
-SSH_HOST = 'www.heim-projekt.com'
+SSH_HOST = 'serv9.deepmagic.de'
 SSH_DIR  = '/var/www/heim-projekt'
 
 desc "Build the website from source"
