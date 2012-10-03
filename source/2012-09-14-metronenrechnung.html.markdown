@@ -115,7 +115,7 @@ Stammfunktion ganz anders aussieht, als die infinitesimale
 Stammfunktion. Die Stammfunktion zu $\phi(n) = n^2$ ist nämlich nicht
 $\frac{1}{3}n^3$, sondern
 
-$$\Phi(n) = \frac{2n^3 - 3n^2 + n}{6}$$.
+$$\Phi(n) = \frac{2n^3 + 3n^2 + n}{6}$$.
 
 Bildet man davon das Metrondifferential, erhält man also wieder die
 ursprüngliche Funktion. Damit lassen sich nun also die Summen der
