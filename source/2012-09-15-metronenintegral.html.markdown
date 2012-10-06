@@ -46,6 +46,10 @@ $$x^{\underline{m}} = (x-0)(x-1)(x-2) ... (x - (m - 1))$$
 So ist zum Beispiel $x^{\underline{3}} = (x-0)(x-1)(x-2)$.
 
 ## Metrondifferential fallender Fakultäten
+<div class="alert alert-error">
+  <b>Achtung!</b> Der folgende Absatz ist inkorrekt und wird demnächst
+überarbeitet.
+</div>
 
 Wir stellen nun fest: Für das Metrondifferential einer fallenden
 Fakultät gilt: $\eth x^{\underline{m}} = mx^{\underline{m-1}}$. Der Beweis ist
@@ -62,6 +66,11 @@ Differentialrechnung, in der ja gilt $\frac{d}{dx} x^m = mx^{m-1}$
 
 ## Umwandlung von Potenzfunktionen in fallende Fakultäten
 
+<div class="alert alert-error">
+  <b>Achtung!</b> Der folgende Abschnitt ist inkorrekt und wird demnächst
+überarbeitet.
+</div>
+
 Wenn wir jetzt noch Potenzfunktionen in Konstrukte aus fallenden
 Fakultäten umwandeln können, wäre es sehr leicht, Metrondifferentiale
 aus Potenzfunktionen umzuwandeln. Tatsächlich geht das. Es gilt nämlich
@@ -76,6 +85,11 @@ unten finden Sie die Umwandlungsregeln für die ersten paar Potenzen.
 
 ## Beispiel: Summe der Quadratzahlen
 
+<div class="alert alert-error">
+  <b>Achtung!</b> Der folgende Absatz ist inkorrekt und wird demnächst
+überarbeitet.
+</div>
+
 Im ersten Teil habe ich ja schon das Metronintegral von $\phi(n) = n^2$
 gezeigt. Nun lässt sich das auch herleiten. Wandeln wir die Funktion
 zuerst in die Summe ihrer fallenden Fakultäten um $\phi(n) = n^2 =
@@ -87,6 +101,11 @@ wir das auflösen und umstellen, kriegen wir die Funktion, die ich im
 ersten Teil angegeben habe.
 
 ## Weitere Rechenregeln
+
+<div class="alert alert-warning">
+  <b>Warnung!</b> Der folgende Abschnitt ist teilweise inkorrekt und
+wird demnächst überarbeitet.
+</div>
 
 Wenn man jetzt viel Zeit hat und damit rumspielt, kriegt man noch viel
 mehr Rechenregeln raus, deren Herleitung ich hier nicht angeben will.
